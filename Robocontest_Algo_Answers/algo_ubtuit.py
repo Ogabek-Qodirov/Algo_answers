@@ -308,7 +308,7 @@ from math import sin,cos,exp,sqrt
 x,y,a = map(float,input().split())
 a = int(a)  
 x = float(x)
-y = float(y)                                #chiziqli 14 30 misol hatooooooo
+y = float(y)                                #chiziqli 14 30 misol
 
 #TT = sqrt(y**2+exp(x)+sqrt(exp(x)+a/(x**2+2))+(cos(x)**2)/(sin(x)**2))+(cos(x)**3)
 TT = sqrt(y**2 + exp(x) + sqrt(exp(x) + (a / (x**2 + 2))) + (cos(x)**2 / sin(x**2))) + cos(x)**3
